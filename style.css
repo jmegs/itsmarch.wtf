@@ -9,6 +9,7 @@ html {
   background-color: black;
   color: white;
   line-height: 0.95;
+  letter-spacing: -0.02em;
 
   font-size: max(36px, 4.3vw);
 }
@@ -19,6 +20,8 @@ a {
 
 h1 {
   font-size: max(90px, 13.2vw);
+  font-family: degular-display, sans-serif;
+  letter-spacing: 0;
 }
 
 small {
