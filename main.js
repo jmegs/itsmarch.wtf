@@ -41,9 +41,12 @@ document.querySelector('#share').href = twURL(`It's March ${days + suffix}*`)
  * @param {String} x 
  * @param {String} y 
  */
+
+import kimg from "./kim-cursor.png"
+
 function makeKim(x, y) {
   const el = document.createElement("img")
-  el.src = "./kim-cursor.png"
+  el.src = kimg
   el.className = "kim"
 
   el.style.setProperty("--y-pos", y)
