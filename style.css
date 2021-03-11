@@ -61,7 +61,7 @@ footer {
     grid-row: 2 / span 2;
     border-inline-end: 2px solid white;
     display: grid;
-    place-items: center;
+    place-items: top;
   }
 
   #section-share {
