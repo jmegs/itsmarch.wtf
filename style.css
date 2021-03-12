@@ -4,6 +4,12 @@
   cursor: url('/kim-pointer.png') 0 0, auto;
 }
 
+::selection {
+  color: black;
+  /* safari needs this */
+  background-color: rgba(255,255,255,0.99);
+}
+
 html {
   font-family: degular, sans-serif;
   background-color: black;
